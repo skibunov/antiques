@@ -123,3 +123,55 @@ body {
 .margin-left-md { margin-left: 1em; }
 .margin-left-lg { margin-left: 1.5em; }
 .margin-left-xl { margin-left: 3em; }
+
+.navbar-light .navbar-toggler{
+  border: none;
+}
+
+
+/* xs (<=543px) */
+@media (max-width: 575px) {
+  .display-4{
+    font-size: 38px;
+  }
+  .lead{
+    font-size: 16px;
+  }
+  .text-main{
+    font-size: 30px;
+  }
+  .card-text{
+    font-size: 14px;
+  }
+  .btn{
+    font-size: 14px;
+  }
+}
+
+/* sm (>=576 и <=767) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .display-4{
+    font-size: 38px;
+  }
+  .lead{
+    font-size: 16px;
+  }
+  .text-main{
+    font-size: 30px;
+  }
+  .card-text{
+    font-size: 14px;
+  }
+  .btn{
+    font-size: 14px;
+  }
+}
+
+/* md (>=768 и <=991) */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* lg (>=992 и <=1199) */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* xl (>=1200) */
+@media (min-width: 1200px) {}
