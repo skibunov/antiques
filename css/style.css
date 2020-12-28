@@ -127,6 +127,9 @@ body {
 .navbar-light .navbar-toggler{
   border: none;
 }
+.indent{
+  text-indent: 1.5em;
+}
 
 
 /* xs (<=543px) */
