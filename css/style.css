@@ -149,6 +149,9 @@ body {
   .btn{
     font-size: 14px;
   }
+  h2{
+    font-size: 23px;
+  }
 }
 
 /* sm (>=576 и <=767) */
@@ -167,6 +170,9 @@ body {
   }
   .btn{
     font-size: 14px;
+  }
+  h2{
+    font-size: 23px;
   }
 }
 
